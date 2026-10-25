@@ -25,22 +25,22 @@
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/Rhythm03-max/Sina_laut/27707ee0bda5da63dca914e53a0b339c5512f9b0/cup.png" width="100%" alt="Product Feature Card"/>
+      <img src="https://raw.githubusercontent.com/Rhythm03-max/ProductImageGen/27707ee0bda5da63dca914e53a0b339c5512f9b0/cup.png" width="100%" alt="Product Feature Card"/>
       <br/><b>Input Image</b> — Raw Image of the product
     </td>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/Rhythm03-max/Sina_laut/27707ee0bda5da63dca914e53a0b339c5512f9b0/output/1fae33be-bc6a-4631-b157-fdb7440ce614_key_facts.png" width="100%" alt="Campaign Visual"/>
+      <img src="https://raw.githubusercontent.com/Rhythm03-max/ProductImageGen/27707ee0bda5da63dca914e53a0b339c5512f9b0/output/1fae33be-bc6a-4631-b157-fdb7440ce614_key_facts.png" width="100%" alt="Campaign Visual"/>
       <br/><b>Generated Image 1</b>
     </td>
     
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/Rhythm03-max/Sina_laut/27707ee0bda5da63dca914e53a0b339c5512f9b0/output/a2b63cdd-9066-4806-9df7-9f4520c1b786_usps.png" width="100%" alt="Product Feature Card"/>
+      <img src="https://raw.githubusercontent.com/Rhythm03-max/ProductImageGen/27707ee0bda5da63dca914e53a0b339c5512f9b0/output/a2b63cdd-9066-4806-9df7-9f4520c1b786_usps.png" width="100%" alt="Product Feature Card"/>
       <br/><b>Generated Image 2</b> 
     </td>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/Rhythm03-max/Sina_laut/27707ee0bda5da63dca914e53a0b339c5512f9b0/output/b2abfe2b-8cf7-49a0-9164-60f5d8abb29a_lifestyle.png" width="100%" alt="Campaign Visual"/>
+      <img src="https://raw.githubusercontent.com/Rhythm03-max/ProductImageGen/27707ee0bda5da63dca914e53a0b339c5512f9b0/output/b2abfe2b-8cf7-49a0-9164-60f5d8abb29a_lifestyle.png" width="100%" alt="Campaign Visual"/>
       <br/><b>Generated Image 3</b> 
     </td>
   </tr>
@@ -99,7 +99,7 @@ Key design decisions:
 ## Project Structure
 
 ```
-Sina_laut/
+ProductImageGen/
 ├── app/
 │   ├── main.py                  # FastAPI app + router wiring
 │   ├── core/
@@ -134,8 +134,8 @@ Sina_laut/
 
 **1. Clone and set up environment**
 ```bash
-git clone https://github.com/Rhythm03-max/Sina_laut.git
-cd Sina_laut
+git clone https://github.com/Rhythm03-max/ProductImageGen.git
+cd ProductImageGen
 python -m venv .venv
 source .venv/bin/activate        # Linux / macOS
 # .venv\Scripts\activate         # Windows PowerShell
